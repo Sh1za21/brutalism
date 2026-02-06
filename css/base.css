@@ -10,18 +10,22 @@
   font-weight: 400;
 }
 
-:root{
-    --white: #F3F3F3;
-    --ff:"Fustat", serif;
-    --gray: #B5B5B5;
+:root {
+  --white: #f3f3f3;
+  --ff: "Fustat", serif;
+  --gray: #b5b5b5;
+  --bg: #1c1c1c;
+}
+body{
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--white);
 }
 
-
-
 .container {
-    max-width: 1140px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
